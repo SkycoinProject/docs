@@ -34,7 +34,7 @@ In future versions of the Skycoin protocol,
 Coin Hours will have an exchange rate against SKY,
 allowing for an optimal displacement of resources according to demand.
 
-See [Coin Hours](https://github.com/skycoin/skycoin/wiki/Coin-Hours) in the
+See [Coin Hours](https://github.com/SkycoinProject/skycoin/wiki/Coin-Hours) in the
 Skycoin Github Wiki for more information.
 
 ### Coin Hours Overview

@@ -1,4 +1,4 @@
-baseURL = "https://www.skycoin.net/docs"
+baseURL = "https://www.skycoin.com/docs"
 languageCode = "en-us"
 title = "Skycoin Documentation"
 defaultContentLanguage = "en"
@@ -35,7 +35,7 @@ pygmentsCodeFencesGuessSyntax = true
 [[menu.main]]
     name = "Explorer"
     identifier = "explorer"
-    url = "//explorer.skycoin.net"
+    url = "//explorer.skycoin.com"
     weight = 6
 [[menu.main]]
     name = "Downloads"
@@ -113,7 +113,7 @@ email = ""
 github = "skycoin"
 twitter = "skycoinproject"
 twitterAnalytics = "ny03t"
-urlGit = "https://github.com/skycoin/docs"
+urlGit = "https://github.com/SkycoinProject/docs"
 
 [[params.social]]
   name = "Medium"
@@ -133,7 +133,7 @@ urlGit = "https://github.com/skycoin/docs"
   image = "images/instagram.svg"
 [[params.social]]
   name = "Github"
-  url = "https://github.com/skycoin/skycoin"
+  url = "https://github.com/SkycoinProject/skycoin"
   image = "images/github.svg"
 [[params.social]]
   name = "Youtube"

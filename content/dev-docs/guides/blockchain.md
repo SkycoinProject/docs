@@ -49,7 +49,7 @@ spend---an attempt to spend the same coins twice.
 
 Unspent outputs are identified by their SHA256 hash of the binary serialization,
 encoded according to the
-[Skycoin Binary Encoding Format](https://github.com/skycoin/skycoin/wiki/Skycoin-Binary-Encoding-Format).
+[Skycoin Binary Encoding Format](https://github.com/SkycoinProject/skycoin/wiki/Skycoin-Binary-Encoding-Format).
 An unspent output contains the SHA256 hash of the transaction that created it,
 an address that owns the output, an amount of Skycoin and an amount of Coin Hours.
 The amount of Skycoin must not be 0.

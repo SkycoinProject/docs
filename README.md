@@ -2,13 +2,13 @@
 
 # Skycoin Docs Website Documentation
 
-[![Build Status](https://travis-ci.com/skycoin/docs.svg?branch=master)](https://travis-ci.com/skycoin/docs)
+[![Build Status](https://travis-ci.com/SkycoinProject/docs.svg?branch=master)](https://travis-ci.com/SkycoinProject/docs)
 
-The documentation in this repo is uploaded to https://www.skycoin.net/docs/.
+The documentation in this repo is uploaded to https://www.skycoin.com/docs/.
 
 This documentation is not comprehensive, please see the Github wikis of other Skycoin code repositories for more information.
-For example, the [Skycoin wiki](https://github.com/skycoin/skycoin/wiki) and the [Skywire wiki](https://github.com/skycoin/skywire/wiki).
-There is also more information in the [Skycoin blog](https://www.skycoin.net/blog/).
+For example, the [Skycoin wiki](https://github.com/SkycoinProject/skycoin/wiki) and the [Skywire wiki](https://github.com/SkycoinProject/skywire/wiki).
+There is also more information in the [Skycoin blog](https://www.skycoin.com/blog/).
 
 ## Content
 

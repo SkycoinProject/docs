@@ -1,7 +1,7 @@
 +++
 title = "51% Attack"
 references = [
-  "[Can Skycoin be 51% Attacked?](https://www.skycoin.net/blog/posts/can-skycoin-be-51-attacked/)",
+  "[Can Skycoin be 51% Attacked?](https://www.skycoin.com/blog/posts/can-skycoin-be-51-attacked/)",
 ]
 summary = """
 The ability of someone controlling a majority of the network

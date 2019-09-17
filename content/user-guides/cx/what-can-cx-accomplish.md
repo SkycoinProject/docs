@@ -16,7 +16,7 @@ systems such as:
 
 * Databases, relational and non-relational
 * HTTP, FTP, SSH, SMTP, DNS servers and more.
-* [Multi-platform games](https://github.com/skycoin/cx-games)
+* [Multi-platform games](https://github.com/SkycoinProject/cx-games)
 * Web, desktop and mobile frameworks
 * Command line software
 * Transpilators, compilers and interpreted languages

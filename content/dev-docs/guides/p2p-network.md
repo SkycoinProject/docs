@@ -29,7 +29,7 @@ The client will maintain one and only one connection to a peer from this list.
 This bootstraps the client to the network when connecting for the first time.
 
 Additionally, some clients will download a list of known peers from a remote URL,
-https://downloads.skycoin.net/blockchain/peers.txt. The IP addresses in this list
+https://downloads.skycoin.com/blockchain/peers.txt. The IP addresses in this list
 will seed the client's initial peers list.
 
 Any peers already known to the client from previous operation will also be included
@@ -37,12 +37,12 @@ in their peer list.
 
 Once a program has connected to the network
 its peers can begin to send it
-[`GIVP` messages](https://github.com/skycoin/skycoin/wiki/Wire-Protocol#give-peers)
+[`GIVP` messages](https://github.com/SkycoinProject/skycoin/wiki/Wire-Protocol#give-peers)
 with the IP addresses and port numbers of
 other peers on the network.
 The client will record these peers to an internal pool which is saved to a file
 `peers.txt` in their
-[data directory](https://github.com/skycoin/skycoin/wiki/Data-directory-and-wallet-folder-locations).
+[data directory](https://github.com/SkycoinProject/skycoin/wiki/Data-directory-and-wallet-folder-locations).
 The peers in the pool will be connected to at random until the client reaches its
 max outgoing connections (default 8).
 
@@ -56,7 +56,7 @@ the status of payment.
 ### Connecting To Peers
 
 Connecting to a peer is done by sending an
-[`INTR` message](https://github.com/skycoin/skycoin/wiki/Wire-Protocol#introduction), which
+[`INTR` message](https://github.com/SkycoinProject/skycoin/wiki/Wire-Protocol#introduction), which
 contains your protocol version number, blockchain public key and user agent.
 The remote node responds with its own `INTR` message. No further
 acknowledgement message is sent to the other node to indicate the
@@ -66,7 +66,7 @@ Failure to meet the **exact** protocol version and blockchain public key will le
 disconnection.
 
 Once connected, the client can send
-[`GETP`](https://github.com/skycoin/skycoin/wiki/Wire-Protocol#get-peers)
+[`GETP`](https://github.com/SkycoinProject/skycoin/wiki/Wire-Protocol#get-peers)
 messages to gather additional peers.
 
 ### Disconnecting

@@ -27,12 +27,12 @@ Obelisk is a new consensus algorithm designed for Skycoin.
 
 ### Whitepapers
 
-See [Obelisk Consensus Whitepapers](https://www.skycoin.net/whitepapers) for
+See [Obelisk Consensus Whitepapers](https://www.skycoin.com/whitepapers) for
 whitepapers that describe the Obelisk consensus algorithm.
 
 ### Reading Material
 
-See [Obelisk Consensus Blog Posts](https://www.skycoin.net/blog/tags/consensus/)
+See [Obelisk Consensus Blog Posts](https://www.skycoin.com/blog/tags/consensus/)
 
 ### Design Decisions
 

@@ -31,7 +31,7 @@ The figure above shows the elements of a Skycoin transaction.
 Computationally speaking, a Skycoin transaction is a data structure with the following elements:
 
 * **Length**: A transaction's size is defined as the length of its binary serialization, encoded according to the
-  [Skycoin Binary Encoding Format](https://github.com/skycoin/skycoin/wiki/Skycoin-Binary-Encoding-Format).
+  [Skycoin Binary Encoding Format](https://github.com/SkycoinProject/skycoin/wiki/Skycoin-Binary-Encoding-Format).
   This is the same binary representation that is used to calculate the transaction's txid.
 * **Type**: Transaction's version. When a node tries to process a transaction,
   it must verify whether it supports the transaction's type.
@@ -73,7 +73,7 @@ In future versions of the Skycoin protocol,
 Coin Hours will have an exchange rate against SKY,
 allowing for an optimal displacement of resources according to demand.
 
-See [Coin Hours](https://github.com/skycoin/skycoin/wiki/Coin-Hours) in the
+See [Coin Hours](https://github.com/SkycoinProject/skycoin/wiki/Coin-Hours) in the
 Skycoin Github Wiki for more information.
 
 ### Unspent Outputs (UXTOs)
@@ -197,5 +197,5 @@ outputs must belong to unused addresses, as explained in
 - To the date, there is no equivalent to Bitcoin's `Pay To Public Key Hash (P2PKH)`
   nor `Pay To Script Hash (P2SH)` transaction types in Skycoin,
   as there is no scripting language for Skycoin transactions.
-  *Note: There is [CX](https://cx.skycoin.net) for scripting but this is not part of the core Skycoin blockchain*
+  *Note: There is [CX](https://cx.skycoin.com) for scripting but this is not part of the core Skycoin blockchain*
 - In Skycoin transactions, a signature is required for every unspent output consumed as input.
